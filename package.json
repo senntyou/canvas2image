@@ -1,0 +1,35 @@
+{
+  "name": "@senntyou/canvas2image",
+  "version": "0.0.1",
+  "description": "A tool of saving or converting canvas to images(download with file extension).",
+  "homepage": "https://github.com/senntyou/canvas2image",
+  "author": "senntyou",
+  "keywords": [
+    "canvas",
+    "to",
+    "image",
+    "download",
+    "jpg",
+    "png",
+    "gif"
+  ],
+  "main": "dist/canvas2image.js",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/senntyou/canvas2image"
+  },
+  "devDependencies": {
+    "moment": "^2.22.1",
+    "yume": "^0.0.2"
+  },
+  "scripts": {
+    "demo": "yume dev demo",
+    "example": "yume dev example",
+    "dist": "yume dist index"
+  },
+  "files": [
+    "dist"
+  ]
+}
